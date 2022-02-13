@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/form.css">
+    <title>FiggesSalong</title>
+</head>
+<body>
+    <header>
+           <h1>
+               Figges Frisösalong
+           </h1>
+           <h2>
+               För Hund & Katt
+           </h2>
+    </header>
+    <nav>
+            <ul class="menu">
+                <li><a href="#">Hem</a></li>
+                <li><a href="#">Om oss</a> </li>
+                <li><a href="#">Tidsbokning</a></li>
+            </ul>
+    </nav>
+    <div class="form-container">
+        <form action="form">
+            <label for="Full name">Namn</label>
+            <input type="Name" placeholder="Your name">
+            <label for="Your email">Din email</label>
+            <input type="email" placeholder="Your email">
+            <Label>Hund eller katt</Label>
+            <select name="Hund eller katt" id="Hund eller Katt">
+                <option value="Hund">Hund</option>
+                <option value="Katt">Katt</option>
+            </select> 
+            <Label>Aktivitet</Label>
+            <select name="Aktivitet" id="Aktivitet">
+                <option value="Klo och klipp">Klo och klippning</option>
+                <option value="Endast klor">Endast kloklipp</option>
+                <option value="Endast klipp">Endast klippning</option>
+            </select>  
+            <Label>Frisör</Label>
+            <select name="Frisör" id="Frisör">
+                <Option>Figge</Option>
+                <Option>Eva</Option>
+                <Option>Maria</Option>
+                <Option>Första lediga</Option>
+            </select>
+            <label for="Describe">Beskriv ditt djurs salongvana</label>
+            <input type="text">
+            <div class="checkbox">
+                 <input type="checkbox" checked>
+                 <span class="checkbox-rectangle">
+                 </span>
+                <div class="checkbox-title">Jag vill gärna få nyhetsbrev från Figges Frisörslong</div>
+            </div>
+            <button type="Submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
