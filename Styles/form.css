@@ -95,8 +95,13 @@ form{
     height: 20px;
     background-color: burlywood;
 }
+
+.fill{
+    font-family: 'Raleway', sans-serif;
+}
 .fill:hover{
     background-color: bisque;
+    font-weight: bold;
 }
 .checkbox{
     display: flex;

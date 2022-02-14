@@ -31,29 +31,29 @@
         <div class="form-container">
             <form action="form">
                 <label class="label" for="Full name">Namn</label>
-                <input class="fill" type="Name" placeholder="Ditt namn">
+                <input class="fill" type="Name" placeholder="Ditt namn" required autofocus>
                 <label class="label" for="Your email">Din email</label>
-                <input class="fill" type="email" placeholder="Din email">
+                <input class="fill" type="email" placeholder="Din email" required autofocus>
                 <label class="label" for="Your number">Telefonnummer</label>
-                <input class="fill" type="number" placeholder="Ditt nummer">
-                <Label class="label">Hund eller katt</Label>
-                <select class="fill" name="Hund eller katt" id="hund_eller_katt">
-                    <option value="Hund">Hund</option>
-                    <option value="Katt">Katt</option>
-                </select> 
-                <Label class="label">Aktivitet</Label>
+                <input class="fill" type="number" placeholder="Ditt nummer" required autofocus>
+                    <Label class="label">Hund eller katt</Label>
+                    <select class="fill" name="Hund eller katt" id="hund_eller_katt" required autofocus>
+                        <option value="Hund">Hund</option>
+                        <option value="Katt">Katt</option>
+                    </select>
+                    <Label class="label">Aktivitet</Label>
                     <select class="fill" name="Aktivitet" id="aktivitet">
                         <option value="Klo och klipp">Klo och klippning</option>
                         <option value="Endast klor">Endast kloklipp</option>
                         <option value="Endast klipp">Endast klippning</option>
                     </select>
-                <Label class="label">Frisör</Label>
-                <select class="fill" name="Frisör" id="Frisör">
-                    <Option value="Figge">Figge</Option>
-                    <Option value="Eva">Eva</Option>
-                    <Option value="Maria">Maria</Option>
-                    <Option value="Första lediga" selected>Första lediga</Option>
-                </select>
+                    <Label class="label">Frisör</Label>
+                    <select class="fill" name="Frisör" id="Frisör">
+                        <Option value="Figge">Figge</Option>
+                        <Option value="Eva">Eva</Option>
+                        <Option value="Maria">Maria</Option>
+                        <Option value="Första lediga" selected>Första lediga</Option>
+                    </select>
                 <label class="label" for="Describe">Beskriv ditt djurs salongsvana</label>
                 <textarea class="fill" name="Text" id="Text" cols="10" rows="5"></textarea>
                 <div class="checkbox">
