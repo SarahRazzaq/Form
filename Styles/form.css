@@ -62,7 +62,7 @@ ul {
 .main-container{
     border-style: hidden;
     width: 100%;
-    height: 310px;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -70,13 +70,14 @@ ul {
 }
 .container-cat{
     width: auto;
-    height: 310px;
+    height: 500px;
 }
 .container-cat img {
     width: 100%;
-    height: 310px;
+    height: 500px;
 }
 .form-container{
+    padding: 10px;
     width: 500px;
     height: auto;
     font-family: 'Raleway', sans-serif;
@@ -86,6 +87,17 @@ form{
     display: flex;
     flex-direction: column;
 }
+.label{
+    margin-top: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    height: 20px;
+    background-color: burlywood;
+}
+.fill:hover{
+    background-color: bisque;
+}
 .checkbox{
     display: flex;
     flex-direction: row;
@@ -93,26 +105,30 @@ form{
 button{
     align-self: center;
     width: 90px;
-    height: 30px;
+    height: 50px;
     border-radius: 4px;
     margin: 10px;
     background-color: blanchedalmond;
     font-family: 'Raleway', sans-serif;
+    font-size: large;
+    font-weight: bold;
     color: peru;
+}
+button:hover{
+    background-color: burlywood;
 }
 .container-dog{
     width: auto;
-    height: 310px;
+    height: 500px;
 }
 
 .container-dog img{
     width: 100%;
-    height: 310px;
+    height: 500px;
 }
 
 footer{
     background-color: blanchedalmond;
-    height: 150px;
     text-align: center;
     font-family: 'Lobster', cursive;
     font-size: 16px;

@@ -30,30 +30,32 @@
         </div> 
         <div class="form-container">
             <form action="form">
-                <label for="Full name">Namn</label>
-                <input type="Name" placeholder="Your name">
-                <label for="Your email">Din email</label>
-                <input type="email" placeholder="Your email">
-                <Label>Hund eller katt</Label>
-                <select name="Hund eller katt" id="Hund eller Katt">
+                <label class="label" for="Full name">Namn</label>
+                <input class="fill" type="Name" placeholder="Ditt namn">
+                <label class="label" for="Your email">Din email</label>
+                <input class="fill" type="email" placeholder="Din email">
+                <label class="label" for="Your number">Telefonnummer</label>
+                <input class="fill" type="number" placeholder="Ditt nummer">
+                <Label class="label">Hund eller katt</Label>
+                <select class="fill" name="Hund eller katt" id="hund_eller_katt">
                     <option value="Hund">Hund</option>
                     <option value="Katt">Katt</option>
                 </select> 
-                <Label>Aktivitet</Label>
-                <select name="Aktivitet" id="Aktivitet">
-                    <option value="Klo och klipp">Klo och klippning</option>
-                    <option value="Endast klor">Endast kloklipp</option>
-                    <option value="Endast klipp">Endast klippning</option>
-                </select>  
-                <Label>Frisör</Label>
-                <select name="Frisör" id="Frisör">
-                    <Option>Figge</Option>
-                    <Option>Eva</Option>
-                    <Option>Maria</Option>
-                    <Option>Första lediga</Option>
+                <Label class="label">Aktivitet</Label>
+                    <select class="fill" name="Aktivitet" id="aktivitet">
+                        <option value="Klo och klipp">Klo och klippning</option>
+                        <option value="Endast klor">Endast kloklipp</option>
+                        <option value="Endast klipp">Endast klippning</option>
+                    </select>
+                <Label class="label">Frisör</Label>
+                <select class="fill" name="Frisör" id="Frisör">
+                    <Option value="Figge">Figge</Option>
+                    <Option value="Eva">Eva</Option>
+                    <Option value="Maria">Maria</Option>
+                    <Option value="Första lediga" selected>Första lediga</Option>
                 </select>
-                <label for="Describe">Beskriv ditt djurs salongsvana</label>
-                <input type="text">
+                <label class="label" for="Describe">Beskriv ditt djurs salongsvana</label>
+                <textarea class="fill" name="Text" id="Text" cols="10" rows="5"></textarea>
                 <div class="checkbox">
                     <input type="checkbox" checked>
                     <span class="checkbox-rectangle">
@@ -74,6 +76,6 @@
        <p>
          Jobba hos oss? Vi växrer hela tiden. Välkommen in med ditt CV! Maila till <a href = "mailto: figgessalong@mail.se" class="mail">Figges Salong</a>
        </p>
-    </footer>      
+    </footer>  
 </body>
 </html>
